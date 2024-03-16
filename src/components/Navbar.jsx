@@ -18,7 +18,7 @@ const Navbar = () => {
       <ul className="list-none sm:flex hidden justify-end flex-1 items-center">
         {navLinks.map((nav, index) => (
           <li
-            className={`font-poppins font-normal cursor-pointer text-[18px] text-white ${
+            className={`font-poppins font-normal cursor-pointer text-[16px] text-white ${
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
             } ${
               nav.id === "contact-us"
