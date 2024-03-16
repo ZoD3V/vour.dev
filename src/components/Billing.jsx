@@ -13,10 +13,10 @@ const Billing = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
-      className={`${styles.flexCenter} flex-col sm:mb-32 mb-6 mt-20 gap-2 relative z-[5]`}
+      className={`${styles.flexCenter} flex-col mb-32 mt-20 gap-2 relative z-[5]`}
     >
       {/* gradient start */}
-      <div className="absolute z-[3] -left-1/2 top-0 w-[40%] h-[40%] rounded-full pink__gradient" />
+      <div className="hidden lg:absolute z-[3] -left-1/2 top-0 w-[40%] h-[40%] rounded-full pink__gradient" />
       {/* gradient end */}
       <TypingText title="Pekerjaan kami" />
       <motion.h1

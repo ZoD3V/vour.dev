@@ -36,9 +36,9 @@ const Hero = () => {
           <span className="text-gradient">Berkembang 
           </span> {" "}
           </motion.h1>
-          <div className="ss:flex hidden md:mr-4 mr-0">
+          {/* <div className="ss:flex hidden md:mr-4 mr-0">
           <GetStarted/>
-          </div>
+          </div> */}
         </div>
 
         <motion.h1 
@@ -71,10 +71,10 @@ const Hero = () => {
         {/* gradient end */}
       </motion.div> 
 
-      <motion.div 
+      {/* <motion.div 
       className={`ss:hidden ${styles.flexCenter}`}>
         <GetStarted />
-      </motion.div>   
+      </motion.div>    */}
     </section>
   );
 };

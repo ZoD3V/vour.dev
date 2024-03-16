@@ -27,7 +27,7 @@ const Business = () => {
         {features.map((item, index) => (
           <div
             key={item.id}
-            className={`flex-1 flex justify-start items-start flex-row bg-card rounded-[16px] w-full p-3 lg:p-4 gap-4`}
+            className={`flex-1 flex justify-start items-start flex-row bg-card rounded-[16px] w-full p-5 gap-4`}
           >
             <div className="w-12 h-12 text-lg sm:text-xl md:text-2xl sm:w-14 sm:h-14 lg:w-16 lg:h-16 flex-shrink-0 rounded-full font-bold text-secBlue bg-card flex items-center justify-center">
               {index + 1}

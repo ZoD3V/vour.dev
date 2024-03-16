@@ -10,7 +10,7 @@ const CardDeal = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
-      className={`${styles.flexCenter} flex-col sm:mb-28 mb-6 mt-24 gap-2 relative z-[5]`}
+      className={`${styles.flexCenter} hidden md:block flex-col md:mb-28 mb-6 mt-24 gap-2 relative z-[5]`}
     >
       <motion.div 
       variants={fadeIn("up", "tween", 0.2, 1)}
