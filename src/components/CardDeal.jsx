@@ -10,7 +10,7 @@ const CardDeal = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
-      className={`${styles.flexCenter} flex-col sm:mb-28 mb-6 mt-24 gap-2`}
+      className={`${styles.flexCenter} flex-col sm:mb-28 mb-6 mt-24 gap-2 relative z-[5]`}
     >
       <motion.div 
       variants={fadeIn("up", "tween", 0.2, 1)}
@@ -31,7 +31,8 @@ const CardDeal = () => {
           Get Started
         </button>
       </motion.div>
-    </motion.section>
+      <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
+      <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />    </motion.section>
   );
 }
 
