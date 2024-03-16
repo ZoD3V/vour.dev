@@ -9,10 +9,10 @@ const Footer = () => {
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
           src={iconHeader}
-          alt="hoobank"
-          className="w-[266px] h-[72.14px] object-contain"
+          alt="vour.dev"
+          className="sm:w-[200px] md:w-[220px] w-[150px] sm:h-[70px] object-contain"
         />
-        <p className={`font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] mt-4 max-w-[312px]`}>
+        <p className={`font-poppins font-normal text-dimWhite text-[16px] sm:text-base leading-[25px] sm:leading-[30.8px] mt-4 max-w-[312px]`}>
           SIap membantu dan mewujudkan kemudahan untuk usaha anda
         </p>
       </div>
