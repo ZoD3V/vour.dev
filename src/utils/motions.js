@@ -108,6 +108,27 @@ export const fadeIn = (direction, type, delay, duration) => ({
   },
 });
 
+export const fadeCard = (direction, type, delay, duration) => ({
+  hidden: {
+    x: direction === 'left' ? 100 : direction === 'right' ? -100 : 0,
+    y: direction === 'up' ? 100 : direction === 'down' ? -100 : 0,
+    opacity: 0,
+    width: 200, // Default width saat hidden
+  },
+  show: {
+    x: 0,
+    y: 0,
+    opacity: 1,
+    width: 400, // Lebar saat tampil
+    transition: {
+      type,
+      delay,
+      duration,
+      ease: 'easeOut',
+    },
+  },
+});
+
 export const planetVariants = (direction) => ({
   hidden: {
     x: direction === 'left' ? '-100%' : '100%',

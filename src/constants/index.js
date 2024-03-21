@@ -1,4 +1,7 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {  facebook, instagram, linkedin, twitter, planet,  Monly,
+  Provision,
+  Musai,
+  explorationResearch, phone,email,tiktok } from "../assets";
 
 export const navLinks = [
   {
@@ -22,28 +25,24 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
     title: "Profesional dan Berpengalaman",
     content:
       "Tim ahli kami bangun situs web optimal & efektif, bantu UMKM & perusahaan besar.",
   },
   {
     id: "feature-2",
-    icon: shield,
     title: "Desain Menarik dan Responsif",
     content:
       "Desain modern, user-friendly, dan responsif, tingkatkan kredibilitas & citra perusahaan Anda.",
   },
   {
     id: "feature-3",
-    icon: send,
     title: "Fitur Lengkap dan Terintegrasi",
     content:
       "Fitur lengkap & terintegrasi (SEO, e-commerce, blog, CMS), kelola website mudah & capai tujuan bisnis Anda.",
   },
     {
     id: "feature-4",
-    icon: send,
     title: "Layanan Berkualitas dan Terpercaya",
     content:
       "Komitmen kami, Layanan berkualitas & terpercaya, solusi tepat waktu untuk kebutuhan Anda.",
@@ -57,7 +56,7 @@ export const portfolio = [
       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
     name: "Website",
     title: "Exploration research",
-    img: people01,
+    img: Monly,
   },
   {
     id: 2,
@@ -65,7 +64,7 @@ export const portfolio = [
       "Money makes your life easier. If you're lucky to have it, you're lucky.",
     name: "Website",
     title: "Digital agency",
-    img: people02,
+    img: Monly,
   },
   {
     id: 3,
@@ -73,7 +72,7 @@ export const portfolio = [
       "It is usually people in the money business, finance, and international trade that are really rich.",
     name: "Website",
     title: "wildbank",
-    img: people03,
+    img: Monly,
   },
 ];
 
@@ -184,21 +183,55 @@ export const socialMedia = [
   },
 ];
 
-export const clients = [
+export const getTouch = [
   {
-    id: "client-1",
-    logo: airbnb,
+    id: 1,
+    icon: phone,
+    link: "08111956622",
   },
   {
-    id: "client-2",
-    logo: binance,
+    id: 2,
+    icon: email,
+    link: "Vour.dev@gmail.com",
   },
   {
-    id: "client-3",
-    logo: coinbase,
+    id: 3,
+    icon: tiktok,
+    link: "Vour.dev"
   },
   {
-    id: "client-4",
-    logo: dropbox,
+    id: 4,
+    icon: instagram,
+    link:"Vour.dev",
+  },
+];
+
+export const ourTeams = [
+  {
+    id: "world-1",
+    imgUrl: planet,
+    title: "The Hogwarts",
+    desc: "Im Developer",
+  },
+  {
+    id: "world-2",
+    imgUrl: planet,
+    title: "The Upside Down",
+    desc: "Im Developer",
+
+  },
+  {
+    id: "world-3",
+    imgUrl: planet,
+    title: "Kadirojo Permai",
+    desc: "Im Developer",
+
+  },
+  {
+    id: "world-4",
+    imgUrl: planet,
+    title: "Paradise Island",
+    desc: "Im Developer asdasdasdasdasdasd asdasdasdasd asdasasdsa",
+
   },
 ];

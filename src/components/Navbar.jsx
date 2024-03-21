@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { close, logo, menu,iconHeader } from "../assets";
+import { close, menu,iconHeader } from "../assets";
 import { navLinks } from "../constants";
 import { motion } from "framer-motion";
-import { navVariants,slideIn } from "../utils/motions";
+import { navVariants } from "../utils/motions";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);

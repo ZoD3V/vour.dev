@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "../style";
 import { discount, robot,heroContent } from "../assets";
-import GetStarted from './GetStarted'
 import { motion } from "framer-motion";
 import { slideIn,staggerContainer,textVariant } from "../utils/motions";
 

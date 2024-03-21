@@ -12,7 +12,7 @@ const Business = () => {
       initial="hidden"
       whileInView="show"
       viewport={{once:true,amount:0.25}}
-      className={`${styles.flexCenter} flex-col sm:mb-15 mb-10 mt-10 gap-2`}
+      className={`${styles.flexCenter} flex-col sm:mb-14 mb-10 mt-10 gap-2`}
     >
       <TypingText title="Digitalkan bisnis Anda sekarang juga"/>
       <motion.h1 
