@@ -17,7 +17,7 @@ const Business = () => {
       <TypingText title="Digitalkan bisnis Anda sekarang juga"/>
       <motion.h1 
       variants={fadeIn('up','tween',0.2,1)}
-      className="font-poppins font-semibold text-white ss:text-[42px] text-[30px] leading-[55px] max-w-full md:max-w-[600px] text-center mb-3 sm:mb-10">
+      className="font-poppins font-semibold text-white ss:text-[42px] text-[30px] leading-[42px] md:leading-[55px] max-w-full md:max-w-[600px] text-center mb-3 sm:mb-10">
         Kenapa anda harus mengunakan jasa kami
       </motion.h1>
 
