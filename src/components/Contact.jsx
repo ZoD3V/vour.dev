@@ -17,17 +17,22 @@ const Contact = () => {
         <div className="flex flex-col gap-3">
           <motion.p
             variants={fadeIn("up", "tween", 0.2, 1)}
-            className="text-gradient text-[18px]"
+            className="text-gradient text-[16px] md:text-[18px]"
           >
             Hubungi kami
           </motion.p>
 
-          <motion.h1
-            variants={fadeIn("up", "tween", 0.2, 1)}
-            className="font-poppins font-semibold text-white sm:text-[34px] text-[20px] max-w-full md:max-w-[600px] text-start"
-          >
-            Get in touch
-          </motion.h1>
+          <motion.div 
+              variants={fadeIn("up", "tween", 0.2, 1)}
+          className="flex flex-col">
+            <h1
+              className="font-poppins font-semibold text-white sm:text-[34px] text-[24px] max-w-full md:max-w-[600px] text-start"
+            >
+              Get in
+              <span className="text-gradient ml-1">Touch</span>
+            </h1>
+            <span className="h-[2px] bg-white w-28"></span>
+          </motion.div>
 
           <motion.p
             variants={fadeIn("up", "tween", 0.2, 1)}
@@ -55,13 +60,13 @@ const Contact = () => {
 
         <motion.div
           variants={fadeIn("up", "tween", 0.2, 1)}
-          className="w-full bg-card p-6 flex flex-col rounded-xl gap-3 md:gap-5"
+          className="w-full md:bg-card md:p-6 flex flex-col rounded-xl gap-4 md:gap-5"
         >
-          <h1 className="font-poppins font-semibold text-white sm:text-[34px] text-[20px] max-w-full md:max-w-[600px] text-start mb-1.3">
+          <h1 className="font-poppins font-semibold text-white sm:text-[34px] text-[24px] max-w-full md:max-w-[600px] text-start mb-2">
             Kirim Pertanyaan
           </h1>
 
-          <div className="flex flex-col md:flex-row gap-3 md:gap-5">
+          <div className="flex flex-col md:flex-row gap-4 md:gap-5">
             <input
               type="text"
               name="name"
@@ -94,9 +99,9 @@ const Contact = () => {
             className="w-full resize-none rounded-md border border-dimBlue bg-card py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-secBlue focus:shadow-md"
           ></textarea>
 
-          <button className="py-4 px-5 button-gradient font-bold rounded-lg"> 
-          Kirim Pesan
-        </button>
+          <button className="py-4 px-5 button-gradient font-bold rounded-lg">
+            Kirim Pesan
+          </button>
         </motion.div>
       </div>
     </motion.section>

@@ -23,7 +23,7 @@ const Business = () => {
 
       <motion.div 
       variants={fadeIn('up','tween',0.2,1)}
-      className="grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-10 mt-10">
+      className="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-10">
         {features.map((item, index) => (
           <div
             key={item.id}
