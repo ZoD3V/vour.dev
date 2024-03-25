@@ -20,7 +20,7 @@ function App() {
         <div className={`${styles.boxWidth}`}>
           <Stats/>
           <Business/>
-          {/* <Clients/> */}
+          <Clients/>
           <Billing/>
           <CardDeal/>
           <Contact/>

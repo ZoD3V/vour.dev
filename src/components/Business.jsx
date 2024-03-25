@@ -1,9 +1,9 @@
-import React from 'react'
-import {features} from '../constants'
-import styles from '../style'
+import React from "react";
+import { features } from "../constants";
+import styles from "../style";
 import { motion } from "framer-motion";
-import { fadeIn,staggerContainer } from "../utils/motions";
-import { TypingText } from './CustomTexts';
+import { fadeIn, staggerContainer } from "../utils/motions";
+import { TypingText } from "./CustomTexts";
 
 const Business = () => {
   return (
@@ -11,19 +11,21 @@ const Business = () => {
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{once:true,amount:0.25}}
-      className={`${styles.flexCenter} flex-col sm:mb-14 mb-10 mt-10 gap-2`}
+      viewport={{ once: true, amount: 0.25 }}
+      className={`${styles.flexCenter} flex-col sm:mb-24 mb-10 mt-10 gap-2`}
     >
-      <TypingText title="Digitalkan bisnis Anda sekarang juga"/>
-      <motion.h1 
-      variants={fadeIn('up','tween',0.2,1)}
-      className="font-poppins font-semibold text-white ss:text-[42px] text-[30px] leading-[42px] md:leading-[55px] max-w-full md:max-w-[600px] text-center mb-3 sm:mb-10">
+      <TypingText title="Digitalkan bisnis Anda sekarang juga" />
+      <motion.h1
+        variants={fadeIn("up", "tween", 0.2, 1)}
+        className="font-poppins font-semibold text-white ss:text-[42px] text-[30px] leading-[42px] md:leading-[55px] max-w-full md:max-w-[600px] text-center mb-3 sm:mb-10"
+      >
         Kenapa anda harus mengunakan jasa kami
       </motion.h1>
 
-      <motion.div 
-      variants={fadeIn('up','tween',0.2,1)}
-      className="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-10">
+      <motion.div
+        variants={fadeIn("up", "tween", 0.2, 1)}
+        className="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-10"
+      >
         {features.map((item, index) => (
           <div
             key={item.id}
@@ -36,7 +38,9 @@ const Business = () => {
               <h4 className="font-poppins font-bold md:text-[20px] text-[15px] sm:text-[18px] text-white">
                 {item.title}
               </h4>
-              <p className={`font-poppins font-normal md:text-[16px] sm:text-[14px] text-[12px] text-dimWhite`}>
+              <p
+                className={`font-poppins font-normal md:text-[16px] sm:text-[14px] text-[12px] text-dimWhite`}
+              >
                 {item.content}
               </p>
             </div>
@@ -45,6 +49,6 @@ const Business = () => {
       </motion.div>
     </motion.section>
   );
-}
+};
 
-export default Business
+export default Business;

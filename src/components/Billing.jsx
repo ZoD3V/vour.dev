@@ -13,7 +13,7 @@ const Billing = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
-      className={`${styles.flexCenter} flex-col md:mb-28 mb-14 mt-18 gap-2 relative z-[5]`}
+      className={`${styles.flexCenter} flex-col sm:mb-24 mb-10 mt-10 gap-2 relative z-[5]`}
     >
       {/* gradient start */}
       <div className="hidden lg:absolute z-[3] -left-1/2 top-0 w-[40%] h-[40%] rounded-full pink__gradient" />

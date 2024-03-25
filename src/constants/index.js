@@ -49,6 +49,33 @@ export const features = [
   },
 ];
 
+export const clients = [
+  {
+    id: 1,
+    title: "Web Developer",
+    content:
+      "Tim ahli kami bangun situs web optimal & efektif, bantu UMKM & perusahaan besar.",
+  },
+  {
+    id: 2,
+    title: "UI/UX Designer",
+    content:
+      "Desain modern, user-friendly, dan responsif, tingkatkan kredibilitas & citra perusahaan Anda.",
+  },
+  {
+    id: 3,
+    title: "Networking",
+    content:
+      "Fitur lengkap & terintegrasi (SEO, e-commerce, blog, CMS), kelola website mudah & capai tujuan bisnis Anda.",
+  },
+  {
+    id: 4,
+    title: "Security",
+    content:
+      "Komitmen kami, Layanan berkualitas & terpercaya, solusi tepat waktu untuk kebutuhan Anda.",
+  },
+];
+
 export const portfolio = [
   {
     id: 1,
