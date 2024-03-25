@@ -131,6 +131,8 @@ const Billing = () => {
           {/* 3 jalan */}
         </div>
       </motion.div>
+
+      <div className="absolute z-[0] w-[50%] h-[50%] -right-1/2 top-0 rounded-full pink__gradient" />
     </motion.section>
   );
 };

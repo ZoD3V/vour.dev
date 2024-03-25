@@ -31,8 +31,11 @@ const Clients = () => {
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
       id="client"
-      className={`${layout.section} sm:mb-24 mb-10 mt-10`}
+      className={`${layout.section} sm:mb-24 mb-10 mt-10 relative z-[5]`}
     >
+      <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
+      {/* <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 top-0 rounded-full pink__gradient" /> */}
+
       <div className={`${layout.sectionInfo}`}>
         <TypingText title="Our service" />
 
